@@ -36,6 +36,18 @@ Designing the ERD in Visio allowed the team to clearly visualize data flow acros
 The finalized ERD served as the blueprint for implementing the database schema in Microsoft Access.
 The ERD was iteratively refined to reduce redundancy and ensure referential integrity across all tables.
 
+## SQL Implementation
+
+The database schema and queries were implemented using Microsoft Access SQL.
+
+**The `sql/` folder contains:**
+
+- **schema.sql** – Defines all relational tables, including primary keys and foreign key constraints.
+- **queries.sql** – Contains sample SELECT queries demonstrating multi-table JOIN operations and aggregate functions (COUNT, GROUP BY) used for reporting and analysis.
+
+The schema was developed based on the ERD created in Microsoft Visio and follows normalization principles to ensure data integrity and reduce redundancy.
+
+
 ## How to Use This Project
 
 1. Review the Entity Relationship Diagram in the `erd/` folder.
